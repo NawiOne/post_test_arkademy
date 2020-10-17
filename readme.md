@@ -2,10 +2,10 @@
 <h3>Track : Fullstack Mobile</h3>
 <h3>Batch : 17 - 1</h3>
 
-<h4># Teori</h4>
+<h4>## Teori</h4>
 
     1. Perbedaan umum Library dan Framework yaitu, 
-       jika libary adalah sekumpulan kode snippet yang sudah dibuat orang lain untuk mempermudah seorang programmer untuk membuat sebuah program, dan kita bisa memanggilnya dimana saja. sedangkan Framework adalah kerangka kerja yang telah dibuat agar programmer tidak membuat kode dari 0. jika Framework sudah menyediakan kerangka program dan kita mengisi kode untuk mengisi bagian program yang belum ada, Library tidak ada kerangka dan kita bebas menggunakannya. Biasanya dalam Framework, kita sudah dibuatkan berbagai structur folder yang memang sudah ditentukan oleh framework tersebut.
+       <p>jika libary adalah sekumpulan kode snippet yang sudah dibuat orang lain untuk mempermudah seorang programmer untuk membuat sebuah program, dan kita bisa memanggilnya dimana saja. sedangkan Framework adalah kerangka kerja yang telah dibuat agar programmer tidak membuat kode dari 0. jika Framework sudah menyediakan kerangka program dan kita mengisi kode untuk mengisi bagian program yang belum ada, Library tidak ada kerangka dan kita bebas menggunakannya. Biasanya dalam Framework, kita sudah dibuatkan berbagai structur folder yang memang sudah ditentukan oleh framework tersebut.
     
     2.  Perbedaan Working directory, Index, dan Head
         * Working directory adalah tempat menyimpan file-file perubahan dari sebuah repo di lokal komputer kita namun belum masuk repo git nya. dan disini kita bisa mengubah dari isi file repo kita.
@@ -22,7 +22,7 @@
         * CONNECT
         * OPTIONS
         * TRACE
-    5. mencari data menggunakan SQL bisa menggunakan query SELECT user FROM users WHERE user = 'Arkademy';
+    5. mencari data menggunakan SQL bisa menggunakan query ```sql SELECT user FROM users WHERE user = 'Arkademy' ```;
 
     6. perbedaan Authorization dan Authentication
         *  Authentication adalah proses pembuktian identitas atau data dari seorang user untuk memvalidasi bahwa user tersebut benar-benar orang yang dimaksud
@@ -40,16 +40,17 @@
         * mennggunakan function untuk membuat component
         * tidak memiliki state (bisa menggunakan react hooks)
         * tidak memiliki lifecycles (bisa menggunakan react hooks)
-    10.  Redux adalah 
+    10.   Redux adalah 
         library untuk state management yang bisa digunakan pada aplikasi berbasis javascript. Redux bisa diibaratkan seperti sebuah database disisi frontend. di redux kita bisa menyimpan kode untuk pemanggilan API, menyimpan data dari API, dan lain-lain. jika kita menggunakan react, redux sangat membantu kita untuk menghubungkan data atau state ke berbagai komponent yang berbeda.
         
-    11. Microservice adalah 
+    11.  Microservice adalah 
         sebuah arsitektur dalam pengembangan sebuah aplikasi dimana aplikasi dibagi menjadi beberapa service. didalam aplikasi biasanya terdapat client side, server side, dan juga database. dalam arsitektur microservise, client side dan server side akan memiliki service yang berdiri sendiri, dan biasanya akan ada peran API untuk menghubungkan keduanya. 
      
-    12. content-type adalah sebuah HTTP Headers yang berguna untuk mengindikasikan atau memberi tahu tipe konten dari sebuah sumber daya (resource.
+    12.  content-type adalah sebuah HTTP Headers yang berguna untuk mengindikasikan atau memberi tahu tipe konten dari sebuah sumber daya (resource).
+
     13. CDN (Content Delivery Network) adalah 
         sekumpulan server yang biasanya terletak diberbagai lokasi. Tujuan adanya CDN ini adalah untuk mempercepat pengiriman data ke berbagai sumber (dalam hal ini adalah website) tanpa harus request ke server hosting utama. jadi misalkan kita request sebuah data dari sebuah website (misalkan kita requset file bootstrap cdn), nah website tersebut sudah menggunakan CDN yang lokasinya paling dekat dengan yang meminta request, jadi pengiriman data akan lebih dekat dan menghemat bandwidth. manfaat CDN yaitu mempercepat pengiriman data, menghemat bandwidth, menaikan kecepatan website, dan masih banyak lagi.
-    14. ......................................
+    14. Error CORS terjadi apabila 
     15. Perbedaan cookie, sessionStorage, dan localStorage yait
         * cookie adalah tempat penyimpanan didalam browser yang memiliki masa expired sesuai pengaturan yang kita buat (1 jam, 1 hari, dan lain-lain). biasanya cookie dipakai untuk menyimpan data login, atau yang lainnya.
         * sessionLogin berfungsi sama dengan cookie, namun data yang disimpan bersifat sementara dan akan hilang ketika browser ditutup.
