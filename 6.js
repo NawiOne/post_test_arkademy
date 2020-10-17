@@ -7,4 +7,4 @@ const fib = (num) => {
     }
 }
 
-console.log(fib(11))
+console.log(fib(3))
