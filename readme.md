@@ -46,7 +46,8 @@
     12. Microservice adalah 
         sebuah arsitektur dalam pengembangan sebuah aplikasi dimana aplikasi dibagi menjadi beberapa service. didalam aplikasi biasanya terdapat client side, server side, dan juga database. dalam arsitektur microservise, client side dan server side akan memiliki service yang berdiri sendiri, dan biasanya akan ada peran API untuk menghubungkan keduanya. 
      
-    13. content-type adalah sebuah HTTP Headers yang berguna untuk mengindikasikan atau memberi tahu tipe konten dari sebuah sumber daya (resource
+    13. content-type adalah sebuah HTTP Headers yang berguna untuk mengindikasikan atau memberi tahu tipe konten dari sebuah sumber daya (resource.
+    14. 
 
 
 
