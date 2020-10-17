@@ -50,8 +50,8 @@
         * mennggunakan function untuk membuat component
         * tidak memiliki state (bisa menggunakan react hooks)
         * tidak memiliki lifecycles (bisa menggunakan react hooks)
-    10.    Redux adalah 
+  10. Redux adalah 
         library untuk state management yang bisa digunakan pada aplikasi berbasis javascript. Redux bisa diibaratkan seperti sebuah database disisi frontend. di redux kita bisa menyimpan kode untuk pemanggilan API, menyimpan data dari API, dan lain-lain. jika kita menggunakan react, redux sangat membantu kita untuk menghubungkan data atau state ke berbagai komponent yang berbeda.
-        
-    11. Microservice adalah sebuah arsitektur dalam pengembangan sebuah aplikasi dimana aplikasi dibagi menjadi beberapa service. didalam aplikasi biasanya terdapat client side,server side, dan juga database. dalam arsitektur microservise, client side dan server side akan memiliki service yang berdiri sendiri, dan biasanya akan ada peran API untuk menghubungkan keduanya. 
+  
+  11. Microservice adalah sebuah arsitektur dalam pengembangan sebuah aplikasi dimana aplikasi dibagi menjadi beberapa service. didalam aplikasi biasanya terdapat client side,server side, dan juga database. dalam arsitektur microservise, client side dan server side akan memiliki service yang berdiri sendiri, dan biasanya akan ada peran API untuk menghubungkan keduanya. 
    
