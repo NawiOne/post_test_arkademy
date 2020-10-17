@@ -22,7 +22,7 @@
         * CONNECT
         * OPTIONS
         * TRACE
-    5. mencari data menggunakan SQL bisa menggunakan query ```sql SELECT user FROM users WHERE user = 'Arkademy' ```;
+    5. mencari data menggunakan SQL bisa menggunakan query ```sqlSELECT user FROM users WHERE user = 'Arkademy'```;
 
     6. perbedaan Authorization dan Authentication
         *  Authentication adalah proses pembuktian identitas atau data dari seorang user untuk memvalidasi bahwa user tersebut benar-benar orang yang dimaksud
