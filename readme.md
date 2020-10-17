@@ -13,3 +13,22 @@
     * setelah perubahan file yang telah ada di Index kita commit, maka akan terkirim ke Head, dimana ini menandakan bahwa repo git telah sama dengan file lokal yang ada dikomputer. dan siap untuk di kirim (push) ke repo remote.
     
  3. untuk mengupdate remote repository dari local repository bisa menggunakan perintah git push <nama remote> <branch>. contoh : ```git git push origin master```.
+ 
+ 4. http method
+        * GET
+        * HEAD
+        * POST
+        * PUT
+        * DELETE
+        * CONNECT
+        * OPTIONS
+        * TRACE
+        
+  5. mencari data menggunakan SQL bisa menggunakan query ```sql SELECT user FROM users WHERE user = 'Arkademy;```
+  
+  6. perbedaan Authorization dan Authentication
+        * Authentication adalah proses pembuktian identitas atau data dari seorang user untuk memvalidasi bahwa user tersebut benar-benar orang yang dimaksud
+        * Authorization adalah hak akses atau layanan apa saja yang dapat di akses oleh user sesuai data yang telah dicek atau diverifikasi sebelumnya.
+        
+  7. Framework Express adalah sebuah framework dari node js yang digunakan untuk mengembangkan sebuah aplikasi web. sebenarnya kita bisa saja menggunakan murni nodejs tanpa menggunakan Express. namun dengan adanya Expressjs, pengembangan akan jauh lebih cepat.
+  
