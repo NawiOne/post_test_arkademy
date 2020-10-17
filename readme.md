@@ -16,12 +16,19 @@
  
  4. http method
         * GET
+        
         * HEAD
+        
         * POST
+        
         * PUT
+        
         * DELETE
+        
         * CONNECT
+        
         * OPTIONS
+        
         * TRACE
         
   5. mencari data menggunakan SQL bisa menggunakan query ```sql SELECT user FROM users WHERE user = 'Arkademy;```
