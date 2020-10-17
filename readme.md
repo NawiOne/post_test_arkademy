@@ -39,3 +39,7 @@
         
   7. Framework Express adalah sebuah framework dari node js yang digunakan untuk mengembangkan sebuah aplikasi web. sebenarnya kita bisa saja menggunakan murni nodejs tanpa menggunakan Express. namun dengan adanya Expressjs, pengembangan akan jauh lebih cepat.
   
+   8. Middleware adalah 
+      sebuah software untuk mengubungkan bagian program yang berbeda. Middleware bisa berisi proses yang kemudian akan berlanjut ke bagian program lain. contoh penerapan  middleware bisa kita lihat di aplikasi ExpressJS yang biasanya digunakan utnuk cek Authorization sebuah user, atau untuk keperluan upload file ke database.
+
+  
