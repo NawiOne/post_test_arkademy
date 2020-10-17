@@ -11,3 +11,5 @@
     * Working directory adalah tempat menyimpan file-file perubahan dari sebuah repo di lokal komputer kita namun belum masuk repo git nya. dan disini kita bisa mengubah dari isi       file repo kita.
     * Index (staging area) adalah tempat menyimpan file dari working directory yang sudah siap untuk kita commit.
     * setelah perubahan file yang telah ada di Index kita commit, maka akan terkirim ke Head, dimana ini menandakan bahwa repo git telah sama dengan file lokal yang ada dikomputer. dan siap untuk di kirim (push) ke repo remote.
+    
+ 3. untuk mengupdate remote repository dari local repository bisa menggunakan perintah git push <nama remote> <branch>. contoh : ```git git push origin master```.
