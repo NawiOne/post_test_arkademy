@@ -1,5 +1,6 @@
 const fib = (num) => {
-    if(num == 1) return [0,1]
+    if(num == 1) return [0,1];
+    else if(num == 0) return;
     else {
         let res = fib(num - 1);
         res.push(res[res.length - 1] + res[res.length - 2])
@@ -7,4 +8,4 @@ const fib = (num) => {
     }
 }
 
-console.log(fib(3))
+console.log(fib(11))

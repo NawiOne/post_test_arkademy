@@ -19,4 +19,4 @@ const cetak_gambar = (num) => {
   return str
 };
 
-console.log(cetak_gambar(5));
+console.log(cetak_gambar(7));

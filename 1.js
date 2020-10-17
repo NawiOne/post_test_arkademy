@@ -1,6 +1,19 @@
-const orderAlphabet = () => {
-    const alhabet = ['z', 'd', 'a', 'b']
-    return alhabet.sort()
-}
+const alphSort = () => {
+  const alph = ["z", "d", "a", "b"];
+  let end = false;
 
-console.log(orderAlphabet())
+  while (!end) {
+    end = true;
+    for (let i = 1; i < alph.length; i++) {
+      if (alph[i - 1] > alph[i]) {
+        end = false;
+        const tmp = alph[i - 1];
+        alph[i - 1] = alph[i];
+        alph[i] = tmp;
+      }
+    }
+  }
+  return alph;
+};
+
+console.log(alphSort());
