@@ -37,21 +37,10 @@
       sebuah software untuk mengubungkan bagian program yang berbeda. Middleware bisa berisi proses yang kemudian akan berlanjut ke bagian program lain. contoh penerapan  middleware bisa kita lihat di aplikasi ExpressJS yang biasanya digunakan utnuk cek Authorization sebuah user, atau untuk keperluan upload file ke database.
 
  9.  perbedaan Class component dan Functional component
- 
- Class Component 
-        * menggunakan Class untuk membuat component
+        * Class Component menggunakan Class untuk membuat component,  Functional Component mennggunakan function untuk membuat component
+        * Class Component memiliki state dan props, Functional Component memiliki props namun tidak memiliki state (bisa menggunakan react hooks)
+        * Class Component mempunyai lifecycles component (siklus hidup component), Functional Component tidak memiliki lifecycles (bisa menggunakan react hooks)
         
-        * memiliki state dan props
-        
-        * mempunyai lifecycles component (siklus hidup component)
-        
- Functional Component
-       * mennggunakan function untuk membuat component
-       
-       * tidak memiliki state (bisa menggunakan react hooks)
-       
-       * tidak memiliki lifecycles (bisa menggunakan react hooks)
-       
  10. Redux adalah 
         library untuk state management yang bisa digunakan pada aplikasi berbasis javascript. Redux bisa diibaratkan seperti sebuah database disisi frontend. di redux kita bisa menyimpan kode untuk pemanggilan API, menyimpan data dari API, dan lain-lain. jika kita menggunakan react, redux sangat membantu kita untuk menghubungkan data atau state ke berbagai komponent yang berbeda.
   
