@@ -40,12 +40,16 @@
  
  Class Component 
         * menggunakan Class untuk membuat component
+        
         * memiliki state dan props
+        
         * mempunyai lifecycles component (siklus hidup component)
         
  Functional Component
        * mennggunakan function untuk membuat component
+       
        * tidak memiliki state (bisa menggunakan react hooks)
+       
        * tidak memiliki lifecycles (bisa menggunakan react hooks)
        
  10. Redux adalah 
