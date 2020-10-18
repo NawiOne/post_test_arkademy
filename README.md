@@ -15,14 +15,14 @@
  3. untuk mengupdate remote repository dari local repository bisa menggunakan perintah git push <nama remote> <branch>. contoh : ``` git push origin master ```.
  
  4. http method
-        * GET
-        * HEAD
-        * POST
-        * PUT
-        * DELETEzx
-        * CONNECT
-        * OPTIONS
-        * TRACE
+    * GET
+    * HEAD
+    * POST
+    * PUT
+    * DELETEzx
+    * CONNECT
+    * OPTIONS
+    * TRACE
         
   5. mencari data menggunakan SQL bisa menggunakan query ``` SELECT user FROM users WHERE user = 'Arkademy';```
   
