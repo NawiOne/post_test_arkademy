@@ -20,3 +20,4 @@ const cetak_gambar = (num) => {
 };
 
 console.log(cetak_gambar(7));
+console.log(cetak_gambar(5));

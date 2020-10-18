@@ -5,4 +5,5 @@ const checkPalindrome = (str) => {
   } return "String bukan Palindrome";
 };
 
-console.log(checkPalindrome("hahah")) ;
+console.log(checkPalindrome("NaNaN")) ;
+console.log(checkPalindrome("NaNaNi")) ;
