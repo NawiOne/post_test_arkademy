@@ -15,12 +15,11 @@
  3. untuk mengupdate remote repository dari local repository bisa menggunakan perintah git push <nama remote> <branch>. contoh : ``` git push origin master ```.
  
  4. http method
- 
         * GET
         * HEAD
         * POST
         * PUT
-        * DELETE
+        * DELETEzx
         * CONNECT
         * OPTIONS
         * TRACE
