@@ -8,21 +8,21 @@
     jika libary adalah sekumpulan kode snippet yang sudah dibuat orang lain untuk mempermudah seorang programmer untuk membuat sebuah program, dan kita bisa memanggilnya dimana       saja. sedangkan Framework adalah kerangka kerja yang telah dibuat agar programmer tidak membuat kode dari 0. jika Framework sudah menyediakan kerangka program dan kita             mengisi kode untuk mengisi bagian program yang belum ada, Library tidak ada kerangka dan kita bebas menggunakannya. Biasanya dalam Framework, kita sudah dibuatkan berbagai         structur folder yang memang sudah ditentukan oleh framework tersebut.
     
  2. Perbedaan Working directory, Index, dan Head
-    * Working directory adalah tempat menyimpan file-file perubahan dari sebuah repo di lokal komputer kita namun belum masuk repo git nya. dan disini kita bisa mengubah dari isi       file repo kita.
+    * Working directory adalah tempat menyimpan file-file perubahan dari sebuah repo di lokal komputer kita yang nantinya akan kita simpan perubahannya. dan disini kita bisa mengubah dari isi file repo kita.
     * Index (staging area) adalah tempat menyimpan file dari working directory yang sudah siap untuk kita commit.
     * setelah perubahan file yang telah ada di Index kita commit, maka akan terkirim ke Head, dimana ini menandakan bahwa repo git telah sama dengan file lokal yang ada dikomputer. dan siap untuk di kirim (push) ke repo remote.
     
  3. untuk mengupdate remote repository dari local repository bisa menggunakan perintah git push <nama remote> <branch>. contoh : ``` git push origin master ```.
  
  4. http method
-    * GET
-    * HEAD
-    * POST
-    * PUT
-    * DELETEzx
-    * CONNECT
-    * OPTIONS
-    * TRACE
+      * GET
+      * HEAD
+      * POST
+      * PUT
+      * DELETEzx
+      * CONNECT
+      * OPTIONS
+      * TRACE
         
   5. mencari data menggunakan SQL bisa menggunakan query ``` SELECT user FROM users WHERE user = 'Arkademy';```
   
@@ -50,7 +50,7 @@
  13. CDN (Content Delivery Network) adalah sekumpulan server yang biasanya terletak diberbagai lokasi. Tujuan adanya CDN ini adalah untuk mempercepat pengiriman data ke berbagai sumber (dalam hal ini adalah website) tanpa harus request ke server hosting utama. jadi misalkan kita request sebuah data dari sebuah website (misalkan kita requset file bootstrap cdn), nah website tersebut sudah menggunakan CDN yang lokasinya paling dekat dengan yang meminta request, jadi pengiriman data akan lebih dekat dan menghemat bandwidth. manfaat CDN yaitu mempercepat pengiriman data, menghemat bandwidth, menaikan kecepatan website, dan masih banyak lagi.
  
  14. Error CORS terjadi apabila 
- 15. Perbedaan cookie, sessionStorage, dan localStorage yait
+ 15. Perbedaan cookie, sessionStorage, dan localStorage yaitu
      * cookie adalah tempat penyimpanan didalam browser yang memiliki masa expired sesuai pengaturan yang kita buat (1 jam, 1 hari, dan lain-lain). biasanya cookie dipakai untuk menyimpan data login, atau yang lainnya.
      * sessionLogin berfungsi sama dengan cookie, namun data yang disimpan bersifat sementara dan akan hilang ketika browser ditutup.
      * localStorage juga sama berfungsi untuk menyimpan data di storage browser, namun localStorage tidak memiliki masa expired, dan data akan tetap ada meski browser ditutup atau komputer dimatikan. data localStorage bisa hilang jika kita memang sengaja menghapusnya dengan clear data browser atau menggunakan perintah program.
