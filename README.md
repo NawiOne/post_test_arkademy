@@ -49,7 +49,7 @@
   
  13. CDN (Content Delivery Network) adalah sekumpulan server yang biasanya terletak diberbagai lokasi. Tujuan adanya CDN ini adalah untuk mempercepat pengiriman data ke berbagai sumber (dalam hal ini adalah website) tanpa harus request ke server hosting utama. jadi misalkan kita request sebuah data dari sebuah website (misalkan kita requset file bootstrap cdn), nah website tersebut sudah menggunakan CDN yang lokasinya paling dekat dengan yang meminta request, jadi pengiriman data akan lebih dekat dan menghemat bandwidth. manfaat CDN yaitu mempercepat pengiriman data, menghemat bandwidth, menaikan kecepatan website, dan masih banyak lagi.
  
- 14. Error CORS terjadi apabila 
+ 14. Error CORS terjadi apabila suatu domain tidak mengizinkan atau memblok izin akses dari domain yang berbeda. Error CORS biasanya terjadi ketika suatu website merequest sesuatu ke alamat domain yang berbeda. Untuk itu, diperlukan mengatur domain apa saja yang boleh mengakses sumber daya dari sebuah domain(whitelist).
  15. Perbedaan cookie, sessionStorage, dan localStorage yaitu
      * cookie adalah tempat penyimpanan didalam browser yang memiliki masa expired sesuai pengaturan yang kita buat (1 jam, 1 hari, dan lain-lain). biasanya cookie dipakai untuk menyimpan data login, atau yang lainnya.
      * sessionLogin berfungsi sama dengan cookie, namun data yang disimpan bersifat sementara dan akan hilang ketika browser ditutup.
