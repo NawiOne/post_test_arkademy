@@ -19,7 +19,7 @@
       * HEAD
       * POST
       * PUT
-      * DELETEzx
+      * DELETE
       * CONNECT
       * OPTIONS
       * TRACE
