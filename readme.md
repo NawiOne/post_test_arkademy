@@ -36,11 +36,11 @@
    8. Middleware adalah 
       sebuah software untuk mengubungkan bagian program yang berbeda. Middleware bisa berisi proses yang kemudian akan berlanjut ke bagian program lain. contoh penerapan  middleware bisa kita lihat di aplikasi ExpressJS yang biasanya digunakan utnuk cek Authorization sebuah user, atau untuk keperluan upload file ke database.
 
- 9.  Class Component 
+ 9.  *Class Component 
         * menggunakan Class untuk membuat component
         * memiliki state dan props
         * mempunyai lifecycles component (siklus hidup component)
-    Functional Component
+    *Functional Component
         * mennggunakan function untuk membuat component
         * tidak memiliki state (bisa menggunakan react hooks)
         * tidak memiliki lifecycles (bisa menggunakan react hooks)
