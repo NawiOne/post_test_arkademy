@@ -46,7 +46,7 @@
   
 11. Microservice adalah sebuah arsitektur dalam pengembangan sebuah aplikasi dimana aplikasi dibagi menjadi beberapa service. didalam aplikasi biasanya terdapat client side,server side, dan juga database. dalam arsitektur microservise, client side dan server side akan memiliki service yang berdiri sendiri, dan biasanya akan ada peran API untuk menghubungkan keduanya. 
   
- 12. content-type adalah sebuah HTTP Headers yang berguna untuk mengindikasikan atau memberi tahu tipe konten dari sebuah sumber daya (resource).
+ 12. content-type adalah sebuah HTTP Headers yang berguna untuk mengindikasikan atau memberi tahu tipe konten dari sebuah sumber daya (resource) dari sebuah file.
   
  13. CDN (Content Delivery Network) adalah sekumpulan server yang biasanya terletak diberbagai lokasi. Tujuan adanya CDN ini adalah untuk mempercepat pengiriman data ke berbagai sumber (dalam hal ini adalah website) tanpa harus request ke server hosting utama. jadi misalkan kita request sebuah data dari sebuah website (misalkan kita requset file bootstrap cdn), nah website tersebut sudah menggunakan CDN yang lokasinya paling dekat dengan yang meminta request, jadi pengiriman data akan lebih dekat dan menghemat bandwidth. manfaat CDN yaitu mempercepat pengiriman data, menghemat bandwidth, menaikan kecepatan website, dan masih banyak lagi.
  
